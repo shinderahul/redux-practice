@@ -17,7 +17,7 @@ class UserList extends Component {
 
 }
 
-function mapStateToProps() {
+function mapStateToProps(state) {
   return {
     users: state.users
   }
