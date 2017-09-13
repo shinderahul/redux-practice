@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App = () => (
-    <div>
+    <div className='container'>
         <h2>User List</h2>
         <hr />
         <h2>User Details</h2>
