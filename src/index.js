@@ -6,8 +6,7 @@ import allReducers from './reducers';
 import App from './components/App';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import registerServiceWorker from './registerServiceWorker';
-
+import './index.css';
 
 const store = createStore(allReducers);
 
@@ -16,4 +15,3 @@ ReactDOM.render(
     <App />
   </Provider>
   , document.getElementById('root'));
-registerServiceWorker();
