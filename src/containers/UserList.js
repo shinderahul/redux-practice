@@ -17,4 +17,10 @@ class UserList extends Component {
 
 }
 
-export default UserList;
+function mapStateToProps() {
+  return {
+    users: state.users
+  }
+}
+
+export default connect(mapStateToProps)(UserList);
